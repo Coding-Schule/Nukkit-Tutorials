@@ -48,7 +48,7 @@ ShapedRecipe recipe = new ShapedRecipe(item, shape, items, extraresults);
 Somit haben wir und ein Custom Crafting Recipe gemacht aber es würde ja nicht gehen wenn wir das recipe nicht regestrieren würden und das
 CraftingPacket nicht rebuilden würden.
 
-# Recipe regestrieren und Packet rebuilen.
+# Recipe regestrieren und Packet rebuilden.
 ```java
 this.getServer().getCraftingManager().registerRecipe(recipe);
 this.getServer().getCraftingManager().rebuildPacket();
