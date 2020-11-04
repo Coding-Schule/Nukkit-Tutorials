@@ -1,6 +1,6 @@
 # Simple Form
 
-Hier wirdst du lernen wie du eine SimpleForm mit FormAPI machst.
+Hier wirst du lernen wie du eine SimpleForm mit FormAPI erstellst.
 
 Unsere End Form soll später 3 Buttons haben.
 
@@ -12,7 +12,7 @@ Unsere End Form soll später 3 Buttons haben.
 
 # Form erstellen
 
-Als erstes erstellen wir eine Variable names `form` mit den Title `Test`.
+Als erstes erstellen wir eine Variable names `form` mit dem Title `Test`.
 
 ```java
 SimpleForm form = new SimpleForm("Test");
@@ -34,14 +34,14 @@ Der content ist quasi eine Beschreibung.
 
 # Buttons
 
-Wie schon gesagt wir wollen eine Form mit 3 Buttons haben. Also let`s go lasst es uns machen.
+Wie schon gesagt wir wollen eine Form mit 3 Buttons haben. Also let's go lasst es uns machen.
 
 ```java
 form.addButton("Hallo");
 from.addButton("Bye");
 ```
 
-Ich habe denn dritten button weggelassen weil ich da ein Bild vor machen will.
+Ich habe denn dritten button weggelassen weil ich davor ein Bild hintun will.
 
 
 
@@ -49,7 +49,7 @@ Ich habe denn dritten button weggelassen weil ich da ein Bild vor machen will.
 form.addButton("Close", ImageType.PATH, "textures/items/diamond");
 ```
 
-Der letze Button hat jetzt ein Diamand bild.
+Der letze Button hat jetzt ein Diamand Bild.
 
 
 
