@@ -1,8 +1,8 @@
 # Modal Form
 
-HIer wirdst du lernen wie du eine ModalForm hast.
+Hier wirst du lernen wie du eine ModalForm erstellst.
 
-Eine Modalform ist einglich genauso wie eine Simpleform aber bei einer Modalform hast du nur 2 button zur auswahl.
+Eine Modalform ist eigentlich genauso wie eine Simpleform, aber bei einer Modalform hast du nur 2 buttons zur Auswahl.
 
 
 
@@ -28,6 +28,6 @@ form.send(playerinstance, (targetplayer, targetform, data) -> {
 });
 ```
 
-Und so mit haben wir eine ModalForm.
+Und so mit haben wir eine ModalForm erstellt.
 
-Wie ihr seht könnt ihr in nur 8 zeilen eine ModalForm machen ^^.
+Wie ihr seht könnt ihr in nur 8 zeilen eine ModalForm erstellen ^^.
