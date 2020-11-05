@@ -2,7 +2,7 @@
 
 Hier wirst du lernen wie du eine ModalForm erstellst.
 
-Eine Modalform ist eigentlich genauso wie eine Simpleform, aber bei einer Modalform hast du nur 2 buttons zur Auswahl.
+Eine Modalform ist eigentlich genauso wie eine Simpleform, aber bei einer Modalform hast du nur 2 Buttons zur Auswahl.
 
 
 
@@ -18,11 +18,11 @@ ModalForm form = new ModalForm("title", "content", "button1", "button2");
 
 ```java
 form.send(playerinstance, (targetplayer, targetform, data) -> {
-   // Hier kommen die funktionen der 2 buttons hin
-    
+   // Hier kommen die Funktionen der 2 Buttons hin
+
     if(data == 1) {
-        targetplayer.sendMessage("servus"); // Ihr könnt auch einfach eure playeristance nehmen
-    } else { // wenn kein bestimmer button getrageted wurde return wird es einfach
+        targetplayer.sendMessage("servus"); // Ihr könnt auch einfach eure playerinstance nehmen
+    } else { // Wenn kein Button gedrückt wurde -> return
         return;
     }
 });

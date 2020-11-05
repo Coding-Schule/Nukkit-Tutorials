@@ -1,8 +1,8 @@
 # Nukkit-Tutorials
 
-Hier wirst du paar basics von Nukkit kennen lernen.
+Hier wirst du einige basics von Nukkit kennen lernen.
 
-Falls fehler oder Fragen auftreten sollten bitte issue erstellen ^^.
+Falls Fehler oder Fragen auftreten sollten bitte eine [Issue](https://github.com/Coding-Schule/Nukkit-Tutorials/issues) erstellen ^^.
 
 
 Contributor:
